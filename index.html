@@ -868,10 +868,11 @@
           .then(() => {
             btn.value = 'Send Email';
             alert('Sent!');
-                document.getElementById(name).value='';
-                document.getElementById(phone).value='';
-                document.getElementById(subject).value='';
-                document.getElementById(message).value='';
+                document.getElementById('name').value='';
+                document.getElementById('email').value='';
+                document.getElementById('phone').value='';
+                document.getElementById('subject').value='';
+                document.getElementById('message').value='';
           }, (err) => {
             btn.value = 'Send Email';
             alert(JSON.stringify(err));
