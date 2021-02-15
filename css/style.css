@@ -515,7 +515,7 @@ a:hover {
 .navbar-b.navbar-trans .active > .nav-link,
 .navbar-b.navbar-trans .nav-link.show,
 .navbar-b.navbar-trans .nav-link.active {
-  color: #191919;
+  color: orange;
 }
 
 .navbar-b.navbar-reduce {
@@ -541,7 +541,7 @@ a:hover {
 .navbar-b.navbar-reduce .active > .nav-link,
 .navbar-b.navbar-reduce .nav-link.show,
 .navbar-b.navbar-reduce .nav-link.active {
-  color: #0078ff;
+  color: orange;
 }
 
 .navbar-b.navbar-reduce .navbar-brand {
@@ -1371,6 +1371,12 @@ a:hover {
 .widget-tags ul li a {
   color: #fff;
 }
+/*---------------------------------------------------------------
+Custom Font
+-----------------------------------------------------------------*/
+@font-face { font-family: Militech; src: url('militech.otf'); } 
+
+
 
 /*--------------------------------------------------------------
 # Footer
